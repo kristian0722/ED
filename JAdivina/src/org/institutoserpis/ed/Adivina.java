@@ -10,16 +10,16 @@ public class Adivina {
 		int numero,contador;
 		contador=0;
 		do{
-		System.out.println("Escribe un numero");
+		System.out.printf("Escribe un numero,intento num %d:",contador);
 		numero=tcl.nextInt();
 		if(numero<numeroaleatorio){
-			System.out.println("Tu numero es menor");
+			System.out.println("Tu numero " +numero + " es menor");
 			contador=contador+1;
 		                          }
 		
 		else
 			if(numero>numeroaleatorio){
-			System.out.println("Tu numero es mayor");
+			System.out.println("Tu numero "+ numero + " es mayor");
 			contador=contador+1;	}
 										
 		  
