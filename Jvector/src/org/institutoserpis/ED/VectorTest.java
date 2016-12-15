@@ -22,6 +22,17 @@ public class VectorTest {
 	public void indexOfEmpty(){
 		assertEquals(-1,Vector.indexOf(new int[]{}, 123));
 	}
-	
+	@Test
+	public void min(){
+		
+		assertEquals(7,Vector.min(new int[]{32,15,7,9,12}));
+		assertEquals(7,Vector.min(new int[]{7,15,8,9,12}));
+		assertEquals(7,Vector.min(new int[]{32,15,12,9,7}));
+		assertEquals(9,Vector.min(new int[]{32,15,43,9,12}));
+	}
+	@Test
+	public void minEmpty(){
+		assertEquals(-1,Vector.min(new int[]{}));
+	}
 	
 }
