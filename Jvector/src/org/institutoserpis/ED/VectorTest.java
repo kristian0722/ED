@@ -31,5 +31,6 @@ public class VectorTest {
 		assertEquals(9,Vector.min(new int[]{32,15,43,9,12}));
 	}
 
-	
+
+
 }

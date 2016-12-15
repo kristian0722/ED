@@ -6,11 +6,13 @@ public class Vector {
 	public static int min(int[] v){
 		
 		int c=v[0];
- 		
-		for(int i=1;i<v.length;i++)
-			if(v[i]< c )
-				c=v[i];
-
+// 		
+//		for(int i=1;i<v.length;i++)
+//			if(v[i]< c )
+//				c=v[i];
+		for (int item:v)
+			if(item<c)
+				c=item;
 			return c;
 	}
 	public static void main(String[]args) {
@@ -37,12 +39,21 @@ public class Vector {
 	}
 		public static int indexOf(int[] v,int valor){
 //			wirth algoritmos y estructura de datos
+//			int index=0;
+//			while(index < v.length && v[index]!= valor )
+//				index++;
+//			if(index == v.length)
+//				return -1;
+//			return index;
+			
 			int index=0;
-			while(index < v.length && v[index]!= valor )
+			for(int item:v){
+				if(item==valor)
+					return index;
 				index++;
-			if(index == v.length)
-				return -1;
-			return index;
+			}
+			
+			return -1;
 		}		
 		
 		
