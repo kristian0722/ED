@@ -30,9 +30,6 @@ public class VectorTest {
 		assertEquals(7,Vector.min(new int[]{32,15,12,9,7}));
 		assertEquals(9,Vector.min(new int[]{32,15,43,9,12}));
 	}
-	@Test
-	public void minEmpty(){
-		assertEquals(-1,Vector.min(new int[]{}));
-	}
+
 	
 }

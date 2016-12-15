@@ -5,20 +5,13 @@ public class Vector {
 	
 	public static int min(int[] v){
 		
-		int x=0;
 		int c=v[0];
  		
-		for(int i=0;i<v.length;i++)
+		for(int i=1;i<v.length;i++)
 			if(v[i]< c )
 				c=v[i];
-			else 
-				if(i==v.length)
-					x=x+i;
-		
-		if(x!=v.length)
+
 			return c;
-		else 
-			return -1;
 	}
 	public static void main(String[]args) {
 		
