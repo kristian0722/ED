@@ -1,0 +1,9 @@
+2017/01/19 christiancano
+Instalados en ubuntu 14.04:
+ monodevelop
+ monodevelop-nunit
+ monodevelop-versioncontrol
+ monodoc-browser
+ monodoc-gtk2.0-manual
+ monodoc-nunit-manual
+
