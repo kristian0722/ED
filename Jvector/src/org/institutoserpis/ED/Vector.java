@@ -93,4 +93,12 @@ public class Vector {
 				swap(v,itemIndex,indexOfMin);				
 			}	
 		}
+//		public static int binarySearch(int[] v,int data){
+//			
+//			for(int i=0;i<v.length;i++){
+//				
+//			}
+//			
+//			return -1;
+//		}
 }
