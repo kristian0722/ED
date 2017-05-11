@@ -7,3 +7,6 @@ Instalados en ubuntu 14.04:
  monodoc-gtk2.0-manual
  monodoc-nunit-manual
 
+2017/5/11
+Subido Proyecto Eclipse al contro de versiones.
+El proyecto consiste en una calculadora con diferentes opciones las cuales son:suma,resta,multiplicacion,division,decimal to binary,decimal to octal y decimal to hexacedimal.
