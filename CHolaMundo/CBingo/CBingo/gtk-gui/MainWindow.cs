@@ -27,7 +27,6 @@ public partial class MainWindow
 		this.entry2.CanFocus = true;
 		this.entry2.Name = "entry2";
 		this.entry2.IsEditable = true;
-		this.entry2.InvisibleChar = '•';
 		this.hbox1.Add (this.entry2);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.entry2]));
 		w1.Position = 0;
