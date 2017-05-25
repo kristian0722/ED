@@ -14,6 +14,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
       //  getIntent().getStringExtra("MESSAGE");
         ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
+
         TextView textView= new TextView(this);
         textView.setTextSize(40);
         textView.setText(getIntent().getStringExtra(MainActivity.EXTRA_MESSAGE));
