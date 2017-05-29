@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment 
+		  android:id="@+id/map"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  class="com.google.android.gms.maps.SupportMapFragment"
+          android:layout_above="@+id/ads"/>
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="@style/header_container"
+        android:visibility="gone" >
+        
+    <TextView
+        android:id="@+id/counter_dreams"
+        android:text="@string/counter_dreams"
+        style="@style/header_textline"/>
+
+    <TextView
+        android:id="@+id/counter_nightmares"
+        android:text="@string/counter_nightmares"
+        style="@style/header_textline" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <include layout="@layout/ads_item" />
+    </LinearLayout>
+</RelativeLayout>
